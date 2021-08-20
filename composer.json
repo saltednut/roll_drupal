@@ -1,5 +1,5 @@
 {
-    "name": "drupal/roll",
+    "name": "saltednut/roll_drupal",
     "type": "drupal-profile",
     "description": "Profile templates for the Roll project",
     "homepage": "https://www.dianawynn.com/roll",
