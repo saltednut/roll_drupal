@@ -4,6 +4,8 @@
     "description": "Profile templates for the Roll project",
     "homepage": "https://www.dianawynn.com/roll",
     "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
@@ -138,11 +140,6 @@
         "library-enyo/dropzone": "^4.3",
         "oomphinc/composer-installers-extender": "^2.0"
     },
-    "conflict": {
-        "drupal/drupal": "*"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "config": {
         "sort-packages": true
     },
@@ -156,6 +153,7 @@
             "npm-asset",
             "bower-asset"
         ],
+        "enable-patching": true,
         "patchLevel": {
             "drupal/core": "-p2"
         },
