@@ -1,7 +1,7 @@
 {
     "name": "drupal/roll",
     "description": "Profile templates for the Roll project",
-    "type": "project",
+    "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.dianawynn.com/roll",
     "support": {
