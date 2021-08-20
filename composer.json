@@ -5,17 +5,13 @@
     "homepage": "https://www.dianawynn.com/roll",
     "license": "GPL-2.0-or-later",
     "require": {
-        "cweagans/composer-patches": "^1.7",
-        "drupal/core": "^9.2.4",
-        "drupal/core-recommended": "^9.2",
-        "drupal/core-composer-scaffold": "^9.2",
-        "drupal/core-project-message": "^9.2",
         "acquia/cohesion": "^6.6",
         "bower-asset/blazy": "^1.8",
         "bower-asset/imagesloaded": "^4.1",
         "bower-asset/masonry-layout": "^4.2",
         "bower-asset/slick-carousel": "^1.8",
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/acquia_search": "^3.0",
         "drupal/addtoany": "^1.15",
         "drupal/admin_toolbar": "^3.0",
@@ -28,6 +24,10 @@
         "drupal/config_rewrite": "^1.4",
         "drupal/config_split": "^1.4",
         "drupal/content_access": "1.x-dev",
+        "drupal/core": "^9.2.4",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
         "drupal/devel": "^4.1",
         "drupal/domain": "1.x-dev",
         "drupal/entity_browser": "^2.6",
@@ -197,5 +197,8 @@
                 "type:npm-asset"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "^9"
     }
 }
