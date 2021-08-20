@@ -1,0 +1,15 @@
+name: 'Roll Partner'
+type: profile
+description: 'Prerolled Partner Profile'
+package: 'Roll'
+core_version_requirement: ^9
+base profile: roll_par
+install:
+  - cohesion
+  - cohesion_base_styles
+  - cohesion_custom_styles
+  - cohesion_elements
+  - cohesion_style_helpers
+  - cohesion_sync
+  - cohesion_templates
+  - cohesion_website_settings

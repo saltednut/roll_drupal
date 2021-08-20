@@ -1,0 +1,10 @@
+name: 'Roll Paragraphs'
+type: profile
+description: 'Prerolled Paragraphs'
+package: 'Roll'
+core_version_requirement: ^9
+base profile: roll
+install:
+  - paragraphs
+  - paragraphs_features
+  - paragraphs_ee
