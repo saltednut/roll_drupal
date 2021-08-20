@@ -77,6 +77,10 @@
         }
     ],
     "require": {
+        "drupal/core": "^9.2.4",
+        "drupal/core-recommended": "^9.2",
+        "drupal/core-composer-scaffold": "^9.2",
+        "drupal/core-project-message": "^9.2",
         "acquia/cohesion": "^6.6",
         "bower-asset/blazy": "^1.8",
         "bower-asset/imagesloaded": "^4.1",
@@ -95,10 +99,6 @@
         "drupal/config_rewrite": "^1.4",
         "drupal/config_split": "^1.4",
         "drupal/content_access": "1.x-dev",
-        "drupal/core": "^9.2.4",
-        "drupal/core-composer-scaffold": "^9.2",
-        "drupal/core-project-message": "^9.2",
-        "drupal/core-recommended": "^9.2",
         "drupal/devel": "^4.1",
         "drupal/domain": "1.x-dev",
         "drupal/entity_browser": "^2.6",

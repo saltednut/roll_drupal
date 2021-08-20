@@ -2,7 +2,7 @@ name: 'Roll Profile'
 type: profile
 description: 'Prerolled Profile'
 package: 'Roll'
-core_version_requirement: ^9
+core_version_requirement: ^8 || ^9
 base profile: minimal
 install:
   - addtoany
