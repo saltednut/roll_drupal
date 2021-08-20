@@ -1,9 +1,9 @@
 {
     "name": "drupal/roll",
-    "description": "Profile templates for the Roll project",
     "type": "drupal-profile",
-    "license": "GPL-2.0-or-later",
+    "description": "Profile templates for the Roll project",
     "homepage": "https://www.dianawynn.com/roll",
+    "license": "GPL-2.0-or-later",
     "support": {
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
