@@ -169,7 +169,7 @@
                 "Site install using UI gives 403 on finish, due to update core 9.2": "https://gist.githubusercontent.com/vishalkhode1/8762f8e2e5569f01a3fdcf3b8d8e2b50/raw/3f916d17b717fd5f3c215bde02e741a9ee7be4e5/site-studio-access-denied.patch"
             },
             "drupal/core": {
-                "Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-06-29/D91x-1356276-656.patch",
+                "Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-06-29/D91x_AND_D93x-1356276-656.patch",
                 "Frontpage View Title for breadcrumb trail": "https://www.drupal.org/files/issues/2021-07-01/core_frontpage_views_title_patch.patch",
                 "It is possible to overflow the number of items allowed in Media Library": "https://www.drupal.org/files/issues/2019-12-28/3082690-80.patch",
                 "Media Library widget produces error this value should not be null when field is required": "https://www.drupal.org/files/issues/2020-10-08/3160238-25.patch",
