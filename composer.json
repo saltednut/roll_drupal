@@ -27,7 +27,6 @@
         "drupal/core": "^9.2.4",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9",
         "drupal/devel": "^4.1",
         "drupal/domain": "1.x-dev",
         "drupal/entity_browser": "^2.6",
@@ -177,21 +176,21 @@
             }
         },
         "installer-paths": {
-            "web/core": [
+            "docroot/core": [
                 "type:drupal-core"
             ],
-            "web/modules/contrib/{$name}": [
+            "docroot/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
-            "web/profiles/contrib/{$name}": [
+            "docroot/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "web/themes/contrib/{$name}": [
+            "docroot/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
-	    "web/libraries/slick": ["bower-asset/slick-carousel"],
-            "web/libraries/masonry": ["bower-asset/masonry-layout"],
-            "web/libraries/{$name}": [
+            "docroot/libraries/slick": ["bower-asset/slick-carousel"],
+            "docroot/libraries/masonry": ["bower-asset/masonry-layout"],
+            "docroot/libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
