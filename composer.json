@@ -23,9 +23,10 @@
         "drupal/config_rewrite": "^1.4",
         "drupal/config_split": "^1.4",
         "drupal/content_access": "1.x-dev",
-        "drupal/core": "^9.2.4",
+        "drupal/core": "^9.3",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
+        "drupal/default_content": "^2.0@alpha",
         "drupal/devel": "^4.1",
         "drupal/domain": "1.x-dev",
         "drupal/entity_browser": "^2.6",
@@ -161,14 +162,14 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "acquia/cohesion": {
-            },
             "drupal/core": {
-                "Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-06-29/D91x_AND_D93x-1356276-656.patch",
-                "Frontpage View Title for breadcrumb trail": "https://www.drupal.org/files/issues/2021-07-01/core_frontpage_views_title_patch.patch",
+                "Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-10-21/1356276-673.patch",
                 "It is possible to overflow the number of items allowed in Media Library": "https://www.drupal.org/files/issues/2019-12-28/3082690-80.patch",
                 "Media Library widget produces error this value should not be null when field is required": "https://www.drupal.org/files/issues/2020-10-08/3160238-25.patch",
                 "SQLite database locking errors cause fatal errors": "https://www.drupal.org/files/issues/1120020-59.patch"
+            },
+            "drupal/default_content": {
+                "2698425 - Duplicate content issues in default content": "https://git.drupalcode.org/project/default_content/-/merge_requests/5.patch"
             }
         },
         "installer-paths": {
