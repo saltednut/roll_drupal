@@ -17,7 +17,6 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/asset_injector": "^2.7",
         "drupal/coffee": "^1.2",
-        "drupal/conditional_fields": "1.x-dev",
         "drupal/config_filter": "^2.2",
         "drupal/config_ignore": "^2.3",
         "drupal/config_partial_export": "^1.6",
