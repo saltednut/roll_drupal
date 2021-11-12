@@ -199,7 +199,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "rm -rf docroot/profiles/roll*",
+            "rm -rf docroot/profiles/roll",
             "mkdir docroot/profiles/roll",
             "cp roll.info.yml docroot/profiles/roll/.",
             "cp -R config docroot/profiles/roll/.",
