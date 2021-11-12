@@ -198,6 +198,12 @@
         "drupal/core-dev": "^9"
     },
     "scripts": {
-        "post-install-cmd": ["cp -R profiles/. docroot/profiles/."]
+        "post-install-cmd": [
+            "rm -rf docroot/profiles/roll*",
+            "mkdir docroot/profiles/roll",
+            "cp roll.info.yml docroot/profiles/roll/.",
+            "cp -R config docroot/profiles/roll/.",
+            "cp -R profiles docroot/profiles/roll/."
+        ]
     }
 }
