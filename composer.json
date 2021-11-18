@@ -163,7 +163,7 @@
         },
         "patches": {
             "drupal/core": {
-                "Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-10-21/1356276-673.patch",
+                "Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-11-18/1356276-675.patch",
                 "It is possible to overflow the number of items allowed in Media Library": "https://www.drupal.org/files/issues/2019-12-28/3082690-80.patch",
                 "Media Library widget produces error this value should not be null when field is required": "https://www.drupal.org/files/issues/2020-10-08/3160238-25.patch",
                 "SQLite database locking errors cause fatal errors": "https://www.drupal.org/files/issues/1120020-59.patch"
