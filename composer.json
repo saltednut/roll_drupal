@@ -40,6 +40,7 @@
         "drupal/google_tag": "^1.4",
         "drupal/inline_responsive_images": "^2.2",
         "drupal/lazy": "^3.10",
+        "drupal/m4032404": "^1.0@alpha",
         "drupal/memcache": "^2.3",
         "drupal/menu_link_attributes": "^1.2",
         "drupal/migrate_plus": "^5.1",
