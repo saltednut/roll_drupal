@@ -2,10 +2,17 @@ dist: bionic
 
 language: minimal
 
+env:
+  matrix:
+    - PROFILE=roll
+    - PROFILE=roll_par
+    - PROFILE=roll_next
+
 install:
   - curl -fsSL https://get.docksal.io | bash
   - fin version
   - fin sysinfo
+  - fin config set INSTALL_PROFILE="$PROFILE"
 
 before_script:
   - fin init
