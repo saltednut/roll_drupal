@@ -1,0 +1,8 @@
+name: 'Roll Next'
+type: profile
+description: 'Prerolled Next for COPE'
+package: 'Roll'
+core_version_requirement: ^9
+base profile: roll
+install:
+  - next
