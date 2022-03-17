@@ -175,13 +175,17 @@
                 "Allow profiles to define a base/parent profile": "https://www.drupal.org/files/issues/2021-11-18/1356276-675.patch",
                 "It is possible to overflow the number of items allowed in Media Library": "https://www.drupal.org/files/issues/2019-12-28/3082690-80.patch",
                 "Media Library widget produces error this value should not be null when field is required": "https://www.drupal.org/files/issues/2020-10-08/3160238-25.patch",
-                "SQLite database locking errors cause fatal errors": "https://www.drupal.org/files/issues/1120020-59.patch"
+                "SQLite database locking errors cause fatal errors": "https://www.drupal.org/files/issues/1120020-59.patch",
+                "ModuleHandler skips all hook implementations when invoked before the module files have been loaded": "https://www.drupal.org/files/issues/2022-01-20/3207813-8.patch"
             },
             "drupal/default_content": {
                 "2698425 - Duplicate content issues in default content": "https://git.drupalcode.org/project/default_content/-/merge_requests/5.patch"
             },
             "drupal/cloudflare_stream": {
                 "3269156 - Auth error when using module": "https://www.drupal.org/files/issues/2022-03-11/cloudflare_stream_authorization.patch"
+            },
+            "drupal/paragraphs": {
+                "3031598 - The \"paragraph\" entity type did not specify a translation handler.": "https://www.drupal.org/files/issues/2021-01-22/paragraph-entity-type-did-not-specify-translation-halder-3031598-45.patch"
             }
         },
         "installer-paths": {
