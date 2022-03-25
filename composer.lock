@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee94328b452fd45da8206869f73461ca",
+    "content-hash": "90f743ec14b56a8ca563e29800b61dab",
     "packages": [
         {
             "name": "acquia/cohesion",
@@ -4901,36 +4901,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/inline_responsive_images"
             }
-        },
-        {
-            "name": "drupal/lambda_form",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/plopesc/lambda_form.git",
-                "reference": "5e975b17e7bee4743b4287abf6283754427f47b8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/plopesc/lambda_form/zipball/5e975b17e7bee4743b4287abf6283754427f47b8",
-                "reference": "5e975b17e7bee4743b4287abf6283754427f47b8",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "drupal-module",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "Lambda form example integration",
-            "homepage": "https://github.com/plopesc/lambda_form",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "issues": "https://github.com/plopesc/lambda_form/issues",
-                "source": "https://github.com/plopesc/lambda_form"
-            },
-            "time": "2019-04-05T12:58:52+00:00"
         },
         {
             "name": "drupal/lazy",
@@ -17110,7 +17080,6 @@
         "drupal/content_access": 20,
         "drupal/default_content": 15,
         "drupal/domain": 20,
-        "drupal/lambda_form": 20,
         "drupal/m4032404": 15,
         "drupal/shield": 20
     },

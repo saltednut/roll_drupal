@@ -9,4 +9,3 @@ install:
   - lunr
   - sfc
   - twig_tweak
-  - lambda_form

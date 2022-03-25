@@ -43,7 +43,6 @@
         "drupal/focal_point": "^1.5",
         "drupal/google_tag": "^1.4",
         "drupal/inline_responsive_images": "^2.2",
-        "drupal/lambda_form": "dev-master",
         "drupal/lazy": "^3.10",
         "drupal/lunr": "^1.2",
         "drupal/m4032404": "^1.0@alpha",
@@ -161,10 +160,6 @@
                     "type": "zip"
                 }
             }
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/plopesc/lambda_form.git"
         }
     ],
     "extra": {
