@@ -7,6 +7,7 @@ env:
     - PROFILE=roll
     - PROFILE=roll_par
     - PROFILE=roll_next
+    - PROFILE=roll_tome
 
 install:
   - curl -fsSL https://get.docksal.io | bash
