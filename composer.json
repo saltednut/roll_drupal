@@ -67,6 +67,7 @@
         "drupal/shield": "1.x-dev",
         "drupal/simple_sitemap": "^4.1",
         "drupal/stage_file_proxy": "^1.1",
+        "drupal/storage": "^1.2",
         "drupal/tinypng": "^1.1",
         "drupal/token": "^1.9",
         "drupal/tome": "^1.6",

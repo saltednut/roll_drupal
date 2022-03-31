@@ -6,3 +6,4 @@ core_version_requirement: ^9
 base profile: roll
 install:
   - next
+  - storage
