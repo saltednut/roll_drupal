@@ -138,7 +138,7 @@ $databases['default']['default'] = [
 	'username' => getenv('MYSQL_USER'),
 	'password' => getenv('MYSQL_PASSWORD'),
 	'host' => 'db',
-	'driver' => 'mysql',
+	'driver' => 'pgsql',
 ];
 
 // Workaround for permission issues with NFS shares

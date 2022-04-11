@@ -3,3 +3,7 @@ services:
   cli:
     environment:
       - INSTALL_PROFILE
+  db:
+    extends:
+      file: ${HOME}/.docksal/stacks/services.yml
+      service: pgsql
