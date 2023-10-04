@@ -5,6 +5,8 @@
     "homepage": "https://www.dianawynn.com/roll",
     "license": "GPL-2.0-or-later",
     "require": {
+        "bower-asset/imagesloaded": "^4.1",
+        "bower-asset/masonry-layout": "^4.2",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
