@@ -15,7 +15,6 @@ install:
   - breakpoint
   - ckeditor
   - coffee
-  - coffee_extras
   - color
   - comment
   - config
