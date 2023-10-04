@@ -61,6 +61,7 @@
         "drupal/yoast_seo": "^1.8",
         "drupal/youtube": "^2.0",
         "drush/drush": "^12.2",
+        "lcobucci/clock": "3.0.0",
         "oomphinc/composer-installers-extender": "^2.0"
     },
     "config": {
