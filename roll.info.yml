@@ -75,7 +75,6 @@ install:
   - responsive_image
   - rest
   - robotstxt
-  - search_autocomplete
   - serialization
   - settings_tray
   - shortcut
