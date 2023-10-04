@@ -6,4 +6,4 @@ services:
   db:
     extends:
       file: ${HOME}/.docksal/stacks/services.yml
-      service: pgsql
+      service: mariadb
