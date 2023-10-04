@@ -2,7 +2,7 @@ name: 'Roll Partner'
 type: profile
 description: 'Prerolled Partner Profile'
 package: 'Roll'
-core_version_requirement: ^9
+core_version_requirement: ^10
 base profile: roll_par
 install:
   - cohesion
