@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74b68ddbd50f70d40d31c33592758f3b",
+    "content-hash": "a4b8e8b43c1ce559dd41e5c7735b2d62",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7508,6 +7508,16 @@
                 }
             ],
             "time": "2023-09-09T17:21:43+00:00"
+        },
+        {
+            "name": "library-enyo/dropzone",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enyo/dropzone",
+                "reference": "v4.3.0"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "masterminds/html5",
