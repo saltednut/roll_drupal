@@ -37,7 +37,8 @@
         "drupal/tome": "^1.11",
         "drupal/webform": "^6.2@beta",
         "drupal/youtube": "^2.0",
-        "drush/drush": "^12.2"
+        "drush/drush": "^12.2",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "config": {
         "preferred-install": {
